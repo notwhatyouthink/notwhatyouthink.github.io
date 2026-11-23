@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,4 +75,154 @@
     .timeline .card { margin-bottom: 1.5rem; }
 
     #contact p { color: var(--muted); margin-bottom: 1rem; }
-    footer { text-align: center; padding: 2rem; color: var(--muted);
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; }
+
+    @media (max-width: 600px) {
+      nav ul { display: none; }
+      #home h1 { font-size: 2.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home" class="logo">Sharnica Jeudy</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home">
+    <h1>Hi, I'm Sharnica Jeudy.</h1>
+    <div class="tagline">Computer Science Graduate · Cybersecurity · Data Analytics</div>
+    <p>I build software, analyze data, and care about keeping systems secure. I bring 2+ years of experience in data-sensitive healthcare and customer-facing environments.</p>
+    <div class="buttons">
+      <a class="btn primary" href="SharnicaJeudyResume_2026.pdf" target="_blank">View Resume</a>
+      <a class="btn" href="https://github.com/notwhatyouthink" target="_blank">GitHub</a>
+      <a class="btn" href="https://linkedin.com/in/sharnica-jeudy-8aa998319" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I graduated from Florida Atlantic University with a B.S. in Computer Science (May 2026), with coursework in algorithms, machine learning, deep learning, AI, and data science analytics. Before and during school, I worked at NYU Langone Health, where I handled sensitive patient data and learned how much accuracy and compliance matter in real systems.</p>
+    <br>
+    <p>I've strengthened my security skills through CodePath's Cybersecurity course and the Mastercard Cybersecurity simulation, and I'm a member of NSBE and an INROADS participant. I speak English and Haitian Creole.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>HobbyHub: Gaming Forum</h3>
+        <div class="meta">React · Supabase · PostgreSQL · React Router</div>
+        <p>A full-stack gaming forum with create, edit, and delete for posts, real-time title search, sorting by date or upvotes, persistent upvotes, and comments on each post.</p>
+        <div class="links">
+          <!-- Replace # with your live demo link and GitHub repo link -->
+          <a href="#" target="_blank">Live Demo</a>
+          <a href="#" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>On My Grind: Drink Trivia</h3>
+        <div class="meta">React · JavaScript · JSON</div>
+        <p>A trivia game where players guess the temperature, milk, syrup, and blended ingredients of random drinks, with color-coded feedback on each answer.</p>
+        <div class="links">
+          <!-- Replace # with your live demo link and GitHub repo link -->
+          <a href="#" target="_blank">Live Demo</a>
+          <a href="#" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <!-- Copy a card above to add your next project (e.g., a data analysis or security project) -->
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-group">
+      <h3>Languages</h3>
+      <div class="tags">
+        <span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">SQL</span>
+        <span class="tag">Swift</span><span class="tag">HTML/CSS</span><span class="tag">VHDL</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>Frameworks &amp; Libraries</h3>
+      <div class="tags">
+        <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">TensorFlow</span>
+        <span class="tag">scikit-learn</span><span class="tag">Parse Swift SDK</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>Tools</h3>
+      <div class="tags">
+        <span class="tag">Git/GitHub</span><span class="tag">Azure</span><span class="tag">Xcode</span>
+        <span class="tag">Visual Studio</span><span class="tag">Jupyter</span><span class="tag">Google Colab</span>
+        <span class="tag">Salesforce</span><span class="tag">Microsoft 365</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2>Experience &amp; Training</h2>
+    <div class="timeline">
+
+      <div class="card">
+        <h3>Patient Access Representative, NYU Langone Health</h3>
+        <div class="meta">Boynton Beach, FL · Jul 2023 – Jun 2024</div>
+        <ul>
+          <li>Managed scheduling and patient data across healthcare systems with accuracy and compliance</li>
+          <li>Analyzed provider data to match patients with the right care and resolve conflicts</li>
+          <li>Worked with cross-functional teams on service-improvement projects</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Front Desk Associate, Hand and Stone</h3>
+        <div class="meta">Wellington, FL · Dec 2021 – Jul 2023</div>
+        <ul>
+          <li>Maintained client records and bookings in scheduling software</li>
+          <li>Provided first-line troubleshooting for system issues</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Cybersecurity &amp; Agile Training</h3>
+        <div class="meta">CodePath · Forage (Mastercard, JPMorgan Chase)</div>
+        <ul>
+          <li>CodePath Cybersecurity: analyzed common attacks and mitigations using industry tools</li>
+          <li>Mastercard: identified phishing threats and recommended targeted security training</li>
+          <li>JPMorgan Chase: wrote user stories, ran standups, and led a sprint review</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>I'm looking for entry-level roles in cybersecurity and data analytics. Feel free to reach out!</p>
+    <div class="buttons">
+      <a class="btn primary" href="mailto:shasha123473@gmail.com">Email Me</a>
+      <a class="btn" href="https://linkedin.com/in/sharnica-jeudy-8aa998319" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>© 2026 Sharnica Jeudy</footer>
+
+</body>
+</html>
